@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700&display=swap');
 
 :root {
     --font-family: 'Poppins', sans-serif;
     --primary-color: #fffbf5;
     --secundary-color: #00425A;
-    --bg-color: #f55050;
+    --bg-color: #5B8FB9;
 }
 
 body {
@@ -55,7 +55,11 @@ h3 {
 button {
     padding: 8px 15px;
     border: 0;
-    background: var(--primary-color);
-    border-radius: 5px;
+    background: var(--bg-color);
+    border-radius: 15px;
     margin-top: 20px;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
 }
